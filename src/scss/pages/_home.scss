@@ -1,0 +1,316 @@
+/* ------------------------------------- */
+/* ----- Header ----- */
+/* ------------------------------------- */
+
+.header {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    background-image: linear-gradient(rgba($color-black, .2), rgba($color-black, .3)) , url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+    @media(min-width: 768px) {
+        
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        max-width: 114rem;
+        max-width: 150rem;
+        transform: translate(-50%, -50%);
+        opacity: .95;
+    }
+
+    &__description {
+
+        max-width: 50rem;
+        // margin: 0 auto;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        color: $color-white;
+        opacity: .7;
+
+
+        @media (min-width: 768px) {
+            width: 70%;
+            font-size: 2.5rem;
+        }
+    }
+
+    &__director {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        padding-bottom: 1rem;
+        transform: translateX(-50%);
+        color: $color-white;
+        opacity: .7;
+
+        @media(min-width: 768px) {
+            font-size: 1.7rem;
+        }
+    }
+
+}
+
+/* ------------------------------------- */
+/* ----- Intro ----- */
+/* ------------------------------------- */
+
+.intro {
+    text-align: center;
+    background: $color-white-1;
+
+    @media(min-width: 768px) {
+        padding: 8rem 0;
+    }
+
+
+}
+
+/* ------------------------------------- */
+/* ----- About ----- */
+/* ------------------------------------- */
+
+.about {
+
+}
+
+
+/* ------------------------------------- */
+/* ----- Carft ----- */
+/* ------------------------------------- */
+
+.craft {
+
+    background: #f9f9f9;
+
+    .row {
+        margin-top: 3rem;
+
+        @media(min-width: 768px) {
+            margin-top: 5rem;
+            display: table;
+            padding: 3rem 10rem;
+        }
+    }
+
+    .hack {
+        border: none;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    &__item {
+        display: block;
+        margin: auto;
+        max-width: 50rem;
+        text-align: center;
+        border: 1px solid rgb(233, 232, 232);
+        padding: 2rem 1rem;
+        background: #fff;
+        box-shadow: 0 .2rem .2rem rgba($color-black, .1);
+        border-radius: 3px;
+
+        &:first-of-type {
+            margin: 0 auto 2rem auto;
+        }
+
+        @media(min-width: 768px) {
+            display: table-cell;
+            padding: 3rem;
+        }
+
+
+    }
+
+    &__img {
+        height: 9rem;
+        display: inline-block;
+        margin-bottom: 1.5rem;
+        fill: #555;
+    }
+
+    &__description {
+        margin: 1.5rem 0;
+        font-size: 1.8rem;
+
+        @media(min-width: 768px) {
+            font-size: 2.2rem;
+        }
+    }
+
+
+
+}
+
+/* ------------------------------------- */
+/* ----- Skills ----- */
+/* ------------------------------------- */
+
+.skill {
+
+    background: #f8f8f8;
+
+    text-align: center;
+
+    .row {
+        max-width: 500px;
+    }
+
+    &__img {
+        display: inline-block;
+        fill: $color-black-1;
+        height: 10rem;
+        margin: 1rem 2rem;
+    }
+
+    [href^='http'] {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px dashed rgb(189, 188, 188);
+        transition: all .2s;
+
+        &:hover {
+            border-bottom: 1px dashed rgb(129, 128, 128);
+        }
+    }
+
+    .btn-text {
+        margin-top: 2rem;
+    }
+
+}
+
+/* ------------------------------------- */
+/* ----- Work ----- */
+/* ------------------------------------- */
+
+.work {
+    text-align: center;
+
+    &__construction {
+        display: block;
+        margin: 3rem auto;
+        height: 10rem;
+
+        @media (min-width: 768px) {
+            height: 20rem;
+        }
+    }
+
+    [href^='http'] {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px dashed rgb(189, 188, 188);
+        transition: all .2s;
+
+        &:hover {
+            border-bottom: 1px dashed rgb(129, 128, 128);
+        }
+    }
+}
+
+/* ------------------------------------- */
+/* ----- Footer ----- */
+/* ------------------------------------- */
+
+.footer {
+    background: #293335;
+    color: $color-white-2;
+    padding: 5rem 5rem 0rem 5rem;
+
+    &__social-links {
+        list-style: none;
+        text-align: center;
+        padding-bottom: 6rem;
+    }
+
+    &__social-link {
+        display: inline-block;
+        font-size: 2rem;
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        @media(min-width: 768px) {
+            font-size: 2.6rem;
+
+            &:not(:last-child) {
+                margin-right: 2rem;
+            }
+        }
+
+        & a {
+            color: inherit;
+            text-decoration: none;
+            transition: all .2s;
+
+            &:hover {
+                color: #c6d8d7;
+            }
+        }
+    }
+
+    &__outro {
+        text-align: center;
+        max-width: 114rem;
+        margin: 0 auto;
+        padding: 3rem 1rem 4rem 1rem;
+        border-top: 1px solid #394344;
+
+        // & p {
+        //     line-height: 1.5;
+        // }
+
+        @media (min-width: 768px) {
+            @include clearfix;
+
+            & p {
+                float: left;
+
+                &:not(:last-child) {
+                    float: right;
+                }
+            }
+        }
+    }
+
+    &__info {
+        font-size: 1.8rem;
+
+        @media(min-width: 768px) {
+            font-size: 2.3rem;
+        }
+
+        a {
+            border-bottom: 1px dashed;
+            color: inherit;
+            text-decoration: none;
+            transition: all .2s;
+
+            &:hover {
+                color: #f4f4f4;
+            }
+        }
+
+    }
+
+    .number {
+        color: $color-white-2 !important;
+        margin: 2rem 0 0 0;
+        font-size: 1.8rem;
+        text-decoration: none;
+        @media(min-width: 768px) {
+            font-size: 2.3rem;
+        }
+    }
+
+
+}

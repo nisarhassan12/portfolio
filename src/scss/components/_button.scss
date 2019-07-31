@@ -1,0 +1,66 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: $color-white;
+        background-color: $color-black-0;
+        padding: 1.5rem 4rem;
+        border: 1px solid $color-black-0;
+        border-radius: 10rem;
+        box-shadow: 0 1rem 2rem rgba($color-black, .17);
+        transition: all .2s;
+        margin-top: 2.2rem;
+
+        @media(min-width: 768px) {
+            font-size: 2rem;
+        }
+    }
+
+    &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        content: '';
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        z-index: -100;
+        transition: all 400ms;   
+        color: inherit;
+        background: inherit;     
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 2rem 3rem rgba($color-black, .17);
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+
+    }
+
+    &:active {
+        transform: translateY(-1px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .17);
+    }
+
+    &__hire {
+
+        &:link,
+        &:visited {
+            opacity: .7;
+            color: $color-white;
+            border: 1px solid $color-white;
+            background-color: transparent;
+        }
+    }
+
+}

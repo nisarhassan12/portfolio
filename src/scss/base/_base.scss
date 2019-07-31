@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Josefin sans', sans-serif;
+    font-size: $default-font-size;
+    font-weight: 300;
+    color: $color-black-1;
+}
+
+
+p {
+    line-height: 1.7;
+}
+
+section {
+    padding: 6rem 2rem;
+    border-bottom: 1px solid rgb(233, 232, 232);
+
+
+
+    @media(min-width: 768px) {
+        padding: 10rem 0;
+    }
+
+}
+
+.intro-text {
+    max-width: 50rem;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    text-align: center;
+
+    @media(min-width: 768px) {
+        font-size: 2.4rem;
+        max-width: 70rem;
+    }
+
+}

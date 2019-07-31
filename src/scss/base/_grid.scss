@@ -1,0 +1,17 @@
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+    @include clearfix;
+
+    @media(min-width: 768px) {
+        display: table;
+    }
+    
+    [class^='col-'] {
+        @media (min-width: 768px) {
+            width: calc(50% - #{$gutter-vertical});
+            float: left;
+        }
+    }
+
+}
