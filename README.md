@@ -1,35 +1,39 @@
-# Porfolio
+# Nisar's Portfolio
 
-Live Demo: https://nisar.surge.sh
+> My portfolio site, which is now open source! <br />
+> Check out the [live site here →][site]
 
-![image](https://user-images.githubusercontent.com/46004116/62226981-8c4ff600-b3d4-11e9-803e-53bafee50e96.png)
+![image][screenshot]
 
-This repo contains the code for a UX rich performant and accessible porfolio site. The website is built using HTML, SCSS and Vanilla JavaScript and it doesn't uses any CSS or JavaScript libraries or frameworks. Everyone is welcome :blush: to contribute or use it as template for their own portfolio but you can't claim that it's your design.
- 
+This repo contains the code for a portfolio site that is has a rich user-experience, is performant, and accessible. The website is built using HTML, SCSS, vanilla JavaScript, and it doesn't use any CSS or JavaScript libraries or have any framework dependencies. Everyone is welcome to contribute or use it as a template for their portfolio. Please give me (this repo) credit for the theme design.
 
-## 🚀 Get Up and Running Qucikly
+## 🚀 Getting Started
 
-You need ![NodeJs](https://nodejs.org/) to develop locally on your Computer.
+You need [Node.js][node] to develop the site locally on your computer.
 
-1. **Install the Dependencies :battery: .**
+### 🔋 Step #1. Install the Dependencies
 
-   ```shell
+```sh
    npm install
+```
 
-   ```
-   
-2. **Start the Development Server :fire: .**
+### 📟 Step #2. Start the Development Server
 
-   ```shell
-   npm run dev
+```sh
+npm run dev
+```
 
-   ```
-   This will start the development server at `http://localhost:1234`.
-   
- ## :building_construction: Create the Production build
+This will start the development server at [`http://localhost:1234`][local] that you should browse to check the local dev version of this site.
 
-   ```shell
-   npm run prod
+### ♻️ Step #3. Production Build
 
-   ```
-   This will create the production build that contains code that is optimized and minified.
+```sh
+npm run prod
+```
+
+This script will create the production build that contains the site code, which is optimized and minified for production.
+
+[site]: https://nisar.surge.sh
+[screenshot]: https://d2ddoduugvun08.cloudfront.net/items/262A041z232j2x2O1E3Y/Image%202019-08-01%20at%208.32.13%20PM.png
+[node]: https://nodejs.org/en/download/
+[local]: http://localhost:1234
