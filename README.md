@@ -1,4 +1,4 @@
-# Nisar's Portfolio
+# Portfolio
 
 > My portfolio site, which is now open source! <br />
 > Check out the [live site here →][site]
