@@ -1,274 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- HTML Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nisar Hassan | Frontend Web Developer</title>
+    <meta
+      name="description"
+      content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
+        expert level."
+    />
 
-<head>
-  <!-- HTML Meta Tags -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nisar Hassan | Frontend Web Developer</title>
-  <meta name="description" content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level." />
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Nisar Hassan | Frontend Web Developer" />
+    <meta
+      itemprop="description"
+      content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
+        expert level."
+    />
+    <meta itemprop="image" content="./meta.jpg" />
 
-  <!-- Google / Search Engine Tags -->
-  <meta itemprop="name" content="Nisar Hassan | Frontend Web Developer" />
-  <meta itemprop="description" content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level." />
-  <meta itemprop="image" content="./meta.jpg" />
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://nisar.surge.sh" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nisar Hassan | Frontend Web Developer" />
+    <meta
+      property="og:description"
+      content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
+        expert level."
+    />
+    <meta property="og:image" content="./meta.jpg" />
 
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="http://nisar.surge.sh" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Nisar Hassan | Frontend Web Developer" />
-  <meta property="og:description" content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level." />
-  <meta property="og:image" content="./meta.jpg" />
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Nisar Hassan | Frontend Web Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
+        expert level."
+    />
+    <meta name="twitter:image" content="./meta.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400"
+      rel="stylesheet"
+    />
+    <script src="./js/index.js" defer></script>
+  </head>
 
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Nisar Hassan | Frontend Web Developer" />
-  <meta name="twitter:description" content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level." />
-  <meta name="twitter:image" content="./meta.jpg" />
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet" />
-  <script src="./js/index.js" defer></script>
-</head>
+  <body>
+    <!-- ***** Navigation ***** -->
 
-<body>
-  <!-- ***** Navigation ***** -->
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
+      <label for="nav-toggle" class="navigation__button">
+        <span class="navigation__icon" aria-label="toggle navigation menu"
+          >&nbsp;</span
+        >
+      </label>
+      <div class="navigation__background">&nbsp;</div>
 
-  <div class="navigation">
-    <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
-    <label for="nav-toggle" class="navigation__button">
-      <span class="navigation__icon" aria-label="toggle navigation menu">&nbsp;</span>
-    </label>
-    <div class="navigation__background">&nbsp;</div>
-
-    <nav class="navigation__nav" role="navigation">
-      <ul class="navigation__list">
-        <li class="navigation__item">
-          <a href="#about" class="navigation__link"><span>01</span>About</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#skill" class="navigation__link"><span>02</span>Skills</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#work" class="navigation__link"><span>03</span>Work</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#popup" class="navigation__link"><span>04</span>Hire Me</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#footer" class="navigation__link"><span>05</span>Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-
-  <!-- ***** Header ***** -->
-
-  <header class="header" role="banner" id="header">
-    <div class="header__text-box">
-      <h1 class="heading-primary">Hi! I am Nisar</h1>
-      <p class="header__description">
-        A Web Developer who creates UX rich performant websites and web applications.
-      </p>
-      <a href="#popup" class="btn btn__hire" id="hire">Hire Me &nbsp;&rarr;</a>
+      <nav class="navigation__nav" role="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link"><span>01</span>About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#skill" class="navigation__link"><span>02</span>Skills</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#work" class="navigation__link"><span>03</span>Work</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#popup" class="navigation__link"><span>04</span>Hire Me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#footer" class="navigation__link"
+              ><span>05</span>Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
     </div>
-    <!-- <p class="header__director">Scroll Down &darr;</p> -->
-  </header>
 
-  <!-- ***** Main ***** -->
+    <!-- ***** Header ***** -->
 
-  <main role="main">
-    <!-- ***** Section Intro ***** -->
-
-    <section class="intro">
-      <div class="row">
-        <h2 class="heading-secondary">Nice to Have You Here</h2>
-        <p class="intro-text">
-          Are You looking for a  fast-performing and user-friendly website to represent your product or
-          business?
-          perhaps you are looking for any kind of consultation? or maybe you have an idea you’d like to express but
-          need a professional with vision in order to actually create it? maybe you’d like to collaborate? moreover,
-          feel free to reach out to me with some advice, I’d love to hear some constructive criticism about any of my
-          projects!
-
+    <header class="header" role="banner" id="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">Hi! I am Nisar</h1>
+        <p class="header__description">
+          A Web Developer who creates UX rich performant websites and web
+          applications.
         </p>
-        <a href="https://twitter.com/nisarhassan12" class="btn">Say Hello !</a>
+        <a href="#popup" class="btn btn__hire" id="hire"
+          >Hire Me &nbsp;&rarr;</a
+        >
       </div>
-    </section>
+      <!-- <p class="header__director">Scroll Down &darr;</p> -->
+    </header>
 
-    <!-- ***** Section Skills ***** -->
+    <!-- ***** Main ***** -->
 
-    <section class="skill" id="skill">
-      <div class="u-text-center">
-        <h2 class="heading-secondary">My Skillset</h2>
+    <main role="main">
+      <!-- ***** Section Intro ***** -->
+
+      <section class="intro">
+        <div class="row">
+          <h2 class="heading-secondary">Nice to Have You Here</h2>
+          <p class="intro-text">
+            Are You looking for a fast-performing and user-friendly website to
+            represent your product or business? perhaps you are looking for any
+            kind of consultation? or maybe you have an idea you’d like to
+            express but need a professional with vision in order to actually
+            create it? maybe you’d like to collaborate? moreover, feel free to
+            reach out to me with some advice, I’d love to hear some constructive
+            criticism about any of my projects!
+          </p>
+          <a href="https://twitter.com/nisarhassan12" class="btn"
+            >Say Hello !</a
+          >
+        </div>
+      </section>
+
+      <!-- ***** Section Skills ***** -->
+
+      <section class="skill" id="skill">
+        <div class="u-text-center">
+          <h2 class="heading-secondary">My Skillset</h2>
+          <p class="intro-text">
+            I have a diverse set of skills from design to
+            <a
+              target="_blank"
+              href="https://www.w3.org/TR/2016/REC-html51-20161101/dom.html"
+              >Semantic</a
+            >
+            and well structured HTML + reasonable and efficient CSS along with
+            <a target="_blank" href="https://sass-lang.com/">Sass</a>,
+            <a target="_blank" href="http://getbem.com/">BEM</a> and
+            <a
+              target="_blank"
+              href="https://gist.github.com/rveitch/84cea9650092119527bc"
+              >7 - 1 pattern</a
+            >
+            for scss organization + JS (ES6 - ESX,
+            <a target="_blank" href="https://eslint.org/">ESLint</a> for linting
+            JS, <a href="https://babeljs.io/" target="_blank">Babel</a> for
+            transpiling)+
+            <a target="_blank" href="https://reactjs.org/">React</a> ( for
+            building complex UIs ) +
+            <a target="_blank" href="https://redux.js.org/">Redux</a> ( for
+            state management ) + module bundlers like
+            <a target="_blank" href="http://webpack.js.org/">Webpack</a> and
+            <a target="_blank" href="https://parceljs.org/">Parcel. </a>I love
+            things that are open source I use
+            <a target="_blank" href="https://code.visualstudio.com/">VS Code</a>
+            as my editor and
+            <a target="_blank" href="https://www.ubuntu.com/">Ubuntu</a> as My
+            operating system.
+          </p>
+          <a href="#work" class="btn">My Work</a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="u-text-center">
+          <h2 class="heading-secondary">About Me</h2>
+        </div>
         <p class="intro-text">
-          I have a diverse set of skills from design to
-          <a target="_blank" href="https://www.w3.org/TR/2016/REC-html51-20161101/dom.html">Semantic</a>
-          and well structured HTML + reasonable and efficient CSS along with
-          <a target="_blank" href="https://sass-lang.com/">Sass</a>,
-          <a target="_blank" href="http://getbem.com/">BEM</a> and
-          <a target="_blank" href="https://gist.github.com/rveitch/84cea9650092119527bc">7 - 1 pattern</a>
-          for scss organization + JS (ES6 - ESX,
-          <a target="_blank" href="https://eslint.org/">ESLint</a> for linting
-          JS, <a href="https://babeljs.io/" target="_blank">Babel</a> for
-          transpiling)+
-          <a target="_blank" href="https://reactjs.org/">React</a> ( for
-          building complex UIs ) +
-          <a target="_blank" href="https://redux.js.org/">Redux</a> ( for
-          state management ) + module bundlers like
-          <a target="_blank" href="http://webpack.js.org/">Webpack</a> and
-          <a target="_blank" href="https://parceljs.org/">Parcel. </a>I love things that are open source I
-          use
-          <a target="_blank" href="https://code.visualstudio.com/">VS Code</a>
-          as my editor and
-          <a target="_blank" href="https://www.ubuntu.com/">Ubuntu</a> as My
-          operating system.
+          I am a self-taught Frontend Web Developer from Lahore, Pakistan. About
+          three years ago is when I started my learning journey on how to make
+          the web stunning and responsive. I have always been a curious
+          individual, which is why I’d love to collaborate and do some
+          real-world projects in order to flourish my skills. I'm not perfect,
+          however. I'm very far from perfection, yet I'm resilient, assertive
+          and stubborn and I find learning a fascinating process. I am currently
+          learning about PWAs and my future plan is to learn about ML for Web
+          Performance.
         </p>
-        <a href="#work" class="btn">My Work</a>
-      </div>
-    </section>
+      </section>
 
-    <section class="about" id="about">
-      <div class="u-text-center">
-        <h2 class="heading-secondary">About Me</h2>
-      </div>
-      <p class="intro-text">
-        I am a self-taught Frontend Web Developer from Lahore, Pakistan. About three years ago is when I started my
-        learning journey on how to make the web stunning and responsive.
-        I have always been a curious individual, which is why I’d love to collaborate and do some real-world projects
-        in order to flourish my skills. I'm not perfect, however. I'm very far from perfection, yet I'm resilient,
-        assertive and stubborn and I find learning a fascinating process. I am currently learning about PWAs and my
-        future plan is to learn about ML for Web Performance.
+      <!-- ***** Section Craft ***** -->
 
-      </p>
-    </section>
-
-    <!-- ***** Section Craft ***** -->
-
-    <section class="craft">
-      <div class="u-text-center">
-        <h2 class="heading-secondary">My Craft in a Nutshell</h2>
-        <p class="intro-text">
-          I love simplicity so I try my best to make things as simple as possible.  I am also very concerned about best practices and always sacrifice developer experience over user experience.
-        </p>
-      </div>
-
-      <div class="row">
-        <div class="craft__item">
-          <img src="./img/browser-16.svg" alt="Browser" class="craft__img" />
-          <h3 class="heading-tertiary">Front-end</h3>
-          <p class="craft__description">
-            I value simple content structure, clean design patterns, and thoughtful interactions filled with semantics and performance. I tend to code things from scratch and enjoy bringing ideas to life.
+      <section class="craft">
+        <div class="u-text-center">
+          <h2 class="heading-secondary">My Craft in a Nutshell</h2>
+          <p class="intro-text">
+            I love simplicity so I try my best to make things as simple as
+            possible. I am also very concerned about best practices and always
+            sacrifice developer experience over user experience.
           </p>
         </div>
 
-        <div class="craft__item hack"></div>
+        <div class="row">
+          <div class="craft__item">
+            <img src="./img/browser-16.svg" alt="Browser" class="craft__img" />
+            <h3 class="heading-tertiary">Front-end</h3>
+            <p class="craft__description">
+              I value simple content structure, clean design patterns, and
+              thoughtful interactions filled with semantics and performance. I
+              tend to code things from scratch and enjoy bringing ideas to life.
+            </p>
+          </div>
 
-        <div class="craft__item">
-          <img src="./img/browser-26.svg" alt="Server" class="craft__img" />
-          <h3 class="heading-tertiary">Back-end</h3>
-          <p class="craft__description">
-            I am a huge fan of "convention over configuration" and like things that follow "don't repeat yourself" principle, therefore I do my Backend in Ruby on Rails.
-          </p>
-        </div>
-      </div>
-    </section>
+          <div class="craft__item hack"></div>
 
-    <!-- ***** Section Work ***** -->
-
-    <section class="work" id="work">
-      <div class="u-text-center">
-        <h2 class="heading-secondary">My Work</h2>
-        <p class="intro-text">
-          I am currently working on some Projects, which I will upload to my portfolio as soon as they are done.Here are a few little demos: 
-          <a href="https://nisaranimations.surge.sh/">Notifications demo</a>
-          ,
-          <a href="https://totaliser.surge.sh/">A calculator</a>
-          ,
-          <a href="https://trek101.surge.sh/">A fictional tour's site</a> <br>(Work
-          in Progress).
-        </p>
-        <img src="./img/609732.svg" alt="" class="work__construction" />
-        <a href="#popup" class="btn btn--hire">Hire Me &nbsp;&rarr;</a>
-      </div>
-    </section>
-  </main>
-
-  <!-- ***** Footer ***** -->
-
-  <footer class="footer" id="footer">
-    <nav>
-      <ul class="footer__social-links">
-        <li class="footer__social-link">
-          <a href="https://www.facebook.com/nisarhassan767">Facebook</a>
-        </li>
-        <li class="footer__social-link">
-          <a href="https://twitter.com/nisarhassan12">Twitter</a>
-        </li>
-        <li class="footer__social-link">
-          <a href="https://www.linkedin.com/in/syednisarhassan12/">Linkedin</a>
-        </li>
-        <li class="number">(+92) 3095636143</li>
-        <li><a href="mailto:syednisarhassan12@gmail.com" class="number">syednisarhassan12@gmail.com</a></li>
-      </ul>
-    </nav>
-    <div class="footer__outro">
-      <p class="footer__info">
-        Crafted within Lahore by
-        <a href="https://twitter.com/nisarhassan12">Nisar.</a>
-      </p>
-      <p class="footer__info">&copy;2019. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <!-- ***** Popup ***** -->
-
-  <div class="popup" id="popup">
-    <div class="popup__content">
-      <div class="popup__right">
-        <a href="#!" class="popup__close">&times;</a>
-        <div class="popup__top">
-          <h2 class="heading-secondary u-text-center">Curriculum Vitae</h2>
-          <p class="popup__text">Grab My CV to find out more about me.</p>
-          <div class="popup__buttons">
-            <a href="https://drive.google.com/file/d/11Yv8wqgL6MhfloKqqC2cTIPD7t-WDjyb/view?usp=sharing" class="btn">Download</a>
+          <div class="craft__item">
+            <img src="./img/browser-26.svg" alt="Server" class="craft__img" />
+            <h3 class="heading-tertiary">Back-end</h3>
+            <p class="craft__description">
+              I am a huge fan of "convention over configuration" and like things
+              that follow "don't repeat yourself" principle, therefore I do my
+              Backend in Ruby on Rails.
+            </p>
           </div>
         </div>
-        <div class="popup__contact-info">
-          <nav>
-            <ul class="footer__social-links">
-              <li class="footer__social-link">
-                <a href="https://www.facebook.com/nisarhassan767">Facebook</a>
-              </li>
-              <li class="footer__social-link">
-                <a href="https://twitter.com/nisarhassan12">Twitter</a>
-              </li>
-              <li class="footer__social-link">
-                <a href="https://www.linkedin.com/in/syednisarhassan12/">Linkedin</a>
-              </li>
-              <li class="number">(+92) 3095636143</li>
-              <li><a class="number" href="mailto:syednisarhassan12@gmail.com">syednisarhassan12@gmail.com</a></li>
-            </ul>
-          </nav>
+      </section>
+
+      <!-- ***** Section Work ***** -->
+
+      <section class="work" id="work">
+        <div class="u-text-center">
+          <h2 class="heading-secondary">My Work</h2>
+          <p class="intro-text">
+            I am currently working on some Projects, which I will upload to my
+            portfolio as soon as they are done.Here are a few little demos:
+            <a href="https://nisaranimations.surge.sh/">Notifications demo</a>
+            ,
+            <a href="https://totaliser.surge.sh/">A calculator</a>
+            ,
+            <a href="https://trek101.surge.sh/">A fictional tour's site</a>
+            <br />(Work in Progress).
+          </p>
+          <img src="./img/609732.svg" alt="" class="work__construction" />
+          <a href="#popup" class="btn btn--hire">Hire Me &nbsp;&rarr;</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***** Footer ***** -->
+
+    <footer class="footer" id="footer">
+      <nav>
+        <ul class="footer__social-links">
+          <li class="footer__social-link">
+            <a href="https://www.facebook.com/nisarhassan767">Facebook</a>
+          </li>
+          <li class="footer__social-link">
+            <a href="https://twitter.com/nisarhassan12">Twitter</a>
+          </li>
+          <li class="footer__social-link">
+            <a href="https://www.linkedin.com/in/syednisarhassan12/"
+              >Linkedin</a
+            >
+          </li>
+          <li class="number">(+92) 3095636143</li>
+          <li>
+            <a href="mailto:syednisarhassan12@gmail.com" class="number"
+              >syednisarhassan12@gmail.com</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__outro">
+        <p class="footer__info">
+          Crafted within Lahore by
+          <a href="https://twitter.com/nisarhassan12">Nisar.</a>
+        </p>
+        <p class="footer__info">&copy;2019. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- ***** Popup ***** -->
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__right">
+          <a href="#!" class="popup__close">&times;</a>
+          <div class="popup__top">
+            <h2 class="heading-secondary u-text-center">Curriculum Vitae</h2>
+            <p class="popup__text">Grab My CV to find out more about me.</p>
+            <div class="popup__buttons">
+              <a
+                href="https://drive.google.com/file/d/11Yv8wqgL6MhfloKqqC2cTIPD7t-WDjyb/view?usp=sharing"
+                class="btn"
+                >Download</a
+              >
+            </div>
+          </div>
+          <div class="popup__contact-info">
+            <nav>
+              <ul class="footer__social-links">
+                <li class="footer__social-link">
+                  <a href="https://www.facebook.com/nisarhassan767">Facebook</a>
+                </li>
+                <li class="footer__social-link">
+                  <a href="https://twitter.com/nisarhassan12">Twitter</a>
+                </li>
+                <li class="footer__social-link">
+                  <a href="https://www.linkedin.com/in/syednisarhassan12/"
+                    >Linkedin</a
+                  >
+                </li>
+                <li class="number">(+92) 3095636143</li>
+                <li>
+                  <a class="number" href="mailto:syednisarhassan12@gmail.com"
+                    >syednisarhassan12@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script>
-    const navigation__checkbox = document.querySelector(
-      ".navigation__checkbox"
-    );
-    const navigation__links = document.querySelectorAll(".navigation__link");
+    <script>
+      const navigation__checkbox = document.querySelector(
+        ".navigation__checkbox"
+      );
+      const navigation__links = document.querySelectorAll(".navigation__link");
 
-    for (let i = 0; i < navigation__links.length; ++i) {
-      navigation__links[i].addEventListener("click", () => {
-        navigation__checkbox.checked = false;
-      });
-    }
-  </script>
-</body>
-
+      for (let i = 0; i < navigation__links.length; ++i) {
+        navigation__links[i].addEventListener("click", () => {
+          navigation__checkbox.checked = false;
+        });
+      }
+    </script>
+  </body>
 </html>
