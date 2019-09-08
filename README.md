@@ -31,7 +31,7 @@ This will start the development server at [`http://localhost:1234`][local] that 
 npm run prod
 ```
 
-This script will create the production build that contains the site code, which is optimized and minified for production.
+This script will create the production build that contains the site code, which is fast and optimized and minified for production.
 
 [site]: https://nisar.surge.sh
 [screenshot]: https://d2ddoduugvun08.cloudfront.net/items/262A041z232j2x2O1E3Y/Image%202019-08-01%20at%208.32.13%20PM.png
