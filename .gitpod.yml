@@ -1,0 +1,8 @@
+tasks:
+  - init: > 
+      nvm install 12.0 && 
+      npm install
+    command: npm run dev
+ports: 
+  - port: 1234
+    onOpen: open-preview

@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/nisarhassan12/portfolio) 
+
 # Portfolio
 
 > My portfolio site, which is now open source! <br />
@@ -6,6 +8,12 @@
 ![image][screenshot]
 
 This repo contains the code for a portfolio site that has a rich user-experience, is performant, and accessible. The website is built using HTML, SCSS, vanilla JavaScript, and it doesn't use any CSS or JavaScript libraries or have any framework dependencies. Everyone is welcome to contribute or use it as a template for their portfolio. Please give me (this repo) credit for the theme design.
+
+#### Online one-click setup for Contributing
+
+Contribute to Vuetify, using a fully featured online development environment; cloned repo, pre-installed dependencies, running web server.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
 ## 🚀 Getting Started
 
