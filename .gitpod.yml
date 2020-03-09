@@ -6,3 +6,7 @@ tasks:
 ports: 
   - port: 1234
     onOpen: open-preview
+vscode:
+  extensions:
+    - formulahendry.auto-close-tag@0.5.6:oZ/8R2VhZEhkHsoeO57hSw==
+    - formulahendry.auto-rename-tag@0.1.1:lKCmLIZAiCM0M8AjDnwCLQ==
