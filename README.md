@@ -11,7 +11,7 @@ This repo contains the code for a portfolio site that has a rich user-experience
 
 #### Online one-click setup for Contributing
 
-Contribute to Vuetify, using a fully featured online development environment; cloned repo, pre-installed dependencies, running web server.
+Contribute to the portfolio, using a fully featured online development environment; cloned repo, pre-installed dependencies, running web server.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
